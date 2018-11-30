@@ -1,0 +1,6 @@
+com\artcode\controller\PersonController.class
+com\artcode\service\IPersonService.class
+com\artcode\model\Person.class
+com\artcode\mapper\PersonMapper.class
+com\artcode\service\impl\PersonServiceImpl.class
+com\artcode\swagger\MySwaggerConfig.class
