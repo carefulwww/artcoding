@@ -8,12 +8,11 @@ import io.swagger.annotations.ApiParam;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 
-import org.eclipse.jdt.internal.compiler.ast.FalseLiteral;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.validation.BindingResult;
+
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -22,12 +21,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.alibaba.druid.util.StringUtils;
 import com.artcode.model.Comment;
-import com.artcode.model.CurrentUser;
+
 import com.artcode.model.response.CommentPageResult;
-import com.artcode.model.response.CommentResult;
+
 import com.artcode.model.response.IDResult;
 import com.artcode.service.impl.CommentServiceImpl;
-import com.artcode.utils.RequestContextUtil;
+
 import com.artcode.utils.ResponseMessage;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
